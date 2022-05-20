@@ -40,7 +40,7 @@
                                 <p align='left'><img src='../images/logo_jabar.png' height='90' /></p>
                             </td>
                             <td>
-                                <h4 align='center'><b>KEMENTERIAN AGAMA</br>MADRASAH ALIYAH NEGERI 2 SITUBONDO</b></h4>
+                                <h4 align='center'><b>KEMENTERIAN AGAMA</br>SMK NEGERI 1 CIBATU</b></h4>
                                 <p align='center'>Jl. Raya Sadang-Subang Desa Cipinang Kec. Cibatu, Purwakarta, Jawa Barat 41182 Telp. (0264) 8396042</p>
                                 <p align='center' style="margin-top: -10px;">Website: www.smkn1cibatu.sch.id Email: smkn1cibatu@yahoo.co.id</p>
                             </td>
