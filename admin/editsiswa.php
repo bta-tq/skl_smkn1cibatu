@@ -31,8 +31,18 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
                                 <form class="form-horizontal" method="post" action="updatesiswa.php">
                                     <input type="hidden" class="form-control" name="no" value="<?php echo $r['no']; ?>" size="50" style="text-align: left;">
                                     <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>NO UJIAN</b></span>
+                                        <input type="text" class="form-control" name="noujian" value="<?php echo $r['noujian']; ?>" size="50" style="text-align: left;">
+                                    </div>
+                                    </br>
+                                    <div class="input-group">
                                         <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>NISN</b></span>
                                         <input type="text" class="form-control" name="nisn" value="<?php echo $r['nisn']; ?>" size="50" style="text-align: left;">
+                                    </div>
+                                    </br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon" id="basic-addon1" style="min-width: 170px; text-align: left;"><b>NIS</b></span>
+                                        <input type="text" class="form-control" name="nis" value="<?php echo $r['nis']; ?>" size="50" style="text-align: left;">
                                     </div>
                                     </br>
                                     <div class="input-group">

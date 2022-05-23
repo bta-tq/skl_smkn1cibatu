@@ -7,7 +7,7 @@
             <h4 align="center" style="margin: 15px 0 -10px 0;"><b>SISTEM INFORMASI</br>STATUS KELULUSAN SISWA</b></h4>
             <?php require_once "setting-tgl.php" ?>
             <div class="form-group" style="margin-bottom: -10px;">
-                <p align="center"><a href="caridata" class="btn btn-danger" value=""><span class='glyphicon glyphicon-check' aria-hidden='true'></span>&nbsp;<b>CEK KELULUSAN</b></a></p>
+                <p align="center"><a href="caridata" class="btn btn-danger" value=""><span class='glyphicon glyphicon-qrcode' aria-hidden='true'></span>&nbsp;<b>CEK KELULUSAN</b></a></p>
             </div>
         </div>
         </br>

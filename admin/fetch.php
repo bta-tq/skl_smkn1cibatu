@@ -16,7 +16,7 @@ SELECT * FROM tbl_siswa INNER JOIN tbl_jurusan ON tbl_siswa.kd_jurusan=tbl_jurus
 
 if ($_POST['query'] != '') {
   $query .= '
-  WHERE name LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR nisn LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR kelas LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR nm_jurusan LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR ket LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%"
+  WHERE name LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR noujian LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR nisn LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR nis LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR kelas LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR nm_jurusan LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%" OR ket LIKE "%' . str_replace(' ', '%', $_POST['query']) . '%"
   ';
 }
 
@@ -37,7 +37,9 @@ $output = '
 <table class="table table-striped table-bordered">
 <thead class="bg-danger text-white">
             <th>NO</th>
+            <th>NO UJIAN</th>
             <th>NISN</th>
+            <th>NIS</th>
             <th>NAMA SISWA</th>
             <th>TEMPAT TANGGAL LAHIR</th>
             <th>KELAS</th>
@@ -53,7 +55,9 @@ if ($total_data > 0) {
     $output .= '
     <tr class="content">
       <td style="text-transform: uppercase;">' . $i++ . '</td>
+      <td style="text-transform: uppercase;">' . $row["noujian"] . '</td>
       <td style="text-transform: uppercase;">' . $row["nisn"] . '</td>
+      <td style="text-transform: uppercase;">' . $row["nis"] . '</td>
       <td style="text-transform: uppercase;">' . $row["name"] . '</td>
       <td style="text-transform: uppercase;">' . $row["addresse"] . ", " . $row["tgllhr"] . '</td>
       <td style="text-transform: uppercase;">' . $row["kelas"] . '</td>

@@ -3,7 +3,7 @@
 </tr>
 <tr class='success'>
     <td colspan='3' align='center'>
-        <font color='#000000' size='4' style='font-weight: bold;' ;>DAFTAR NILAI MADRASAH
+        <font color='#000000' size='4' style='font-weight: bold;' ;>DAFTAR NILAI SEKOLAH
     </td>
 </tr>
 <tr class='danger'>

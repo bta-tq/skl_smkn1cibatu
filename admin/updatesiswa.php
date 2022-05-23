@@ -17,6 +17,7 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
                 include('../controller/config.php');
                 // menangkap data yang di kirim dari form
                 $no = $_POST['no'];
+                $noujian = $_POST['noujian'];
                 $nisn = $_POST['nisn'];
                 $name = $_POST['name'];
                 $addresse = $_POST['addresse'];
@@ -24,7 +25,7 @@ if (isset($_SESSION['username']) and $_SESSION['pass']) {
                 $kelas = $_POST['kelas'];
                 $ket = $_POST['ket'];
                 // update data ke database
-                $simpan = mysqli_query($koneksi, "UPDATE tb_student SET nisn='$nisn', name='$name', addresse='$addresse', tgllhr='$tgllhr', kelas='$kelas', ket='$ket' where no='$no'");
+                $simpan = mysqli_query($koneksi, "UPDATE tb_student SET noujian='$noujian', nisn='$nisn', name='$name', addresse='$addresse', tgllhr='$tgllhr', kelas='$kelas', ket='$ket' where no='$no'");
                 if ($simpan) {
                     echo '<div class="alert alert-success alert-dismissible fade in" role="alert">
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
