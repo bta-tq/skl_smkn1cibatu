@@ -45,9 +45,9 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                                 <hr>
                                 <script>
                                     function cekNo() {
-                                        var cek = document.forms['formcarino']['nis'].value;
+                                        var cek = document.forms['formcarino']['noujian'].value;
                                         if (cek == null || cek == "") {
-                                            alert("SILAHKAN MASUKKAN NOMOR NIS");
+                                            alert("SILAHKAN MASUKKAN NOMOR UJIAN");
                                             return false;
                                         }
                                     }
@@ -65,10 +65,10 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                                         </h4>
                                     </div>
                                     <hr>
-                                    <form class="form-horizontal" form name="formcarino" method="post" action="carinis" onSubmit="return cekNo()">
+                                    <form class="form-horizontal" form name="formcarino" method="post" action="carinisn" onSubmit="return cekNo()">
                                         <fieldset id="xpengumuman">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="nis" placeholder="KETIK/MASUKKAN NOMOR NIS" size="auto">
+                                                <input type="text" class="form-control" name="noujian" placeholder="KETIK/MASUKKAN NOMOR UJIAN" size="auto">
                                             </div>
                                             <div class="form-group" style="margin-bottom: -10px;">
                                                 <p align="center"><b><input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="PERIKSA DATA" class="btn btn-danger"></b></p>
