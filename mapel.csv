@@ -3,30 +3,13 @@
 613;3;Bahasa Indonesia;JR06
 614;4;Matematika;JR06
 615;5;Sejarah Indonesia;JR06
-616;6;Bahasa Inggris dan Bahasa Asing Lainnya;JR06
+616;6;Bahasa Inggris;JR06
 621;7;Seni Budaya;JR06
 622;8;Pendidikan Jasmani, Olahraga dan Kesehatan;JR06
-211;9;Simulasi dan Komunikasi Digital;JR02
-212;10;Fisika;JR02
-213;11;Kimia;JR02
-221;12;Sistem Komputer;JR02
-222;13;Komputer dan Jaringan Dasar;JR02
-223;14;Pemrograman Dasar;JR02
-224;15;Dasar Desain Grafis;JR02
-231;16;Teknologi WAN;JR02
-232;17;Administrasi Infrastruktur Jaringan;JR02
-233;18;Administrasi Sistem Jaringan;JR02
-234;19;Teknologi Layanan Jaringan;JR02
-235;20;Produk Kreatif dan Kewirausahaan;JR02
-511;21;Simulasi dan Komunikasi Digital;JR05
-512;22;Ekonomi Bisnis;JR05
-513;23;Administrasi Umum;JR05
-514;24;IPA;JR05
-521;25;Teknologi Perkantoran;JR05
-522;26;Korespondensi;JR05
-523;27;Kearsipan;JR05
-531;28;Otomatisasi Tata Kelola Kepegawaian;JR05
-532;29;Otomatisasi Tata Kelola Keuangan;JR05
-533;30;Otomatisasi Tata Kelola Sarana dan Prasarana;JR05
-534;31;Otomatisasi Tata Kelola Humas dan Keprotokolan;JR05
-535;32;Produk Kreatif dan Kewirausahaan;JR05
+623;9;Bahasa Sunda;JR06
+711;10;Simulasi dan Komunikasi Digital;JR07
+712;11;Fisika;JR07
+713;12;Kimia;JR07
+714;13;Dasar Program Keahlian;JR07
+715;14;Kompetensi Keahlian;JR07
+716;15;Ilmu Pengetahuan Alam (IPA);JR07

@@ -100,7 +100,7 @@ while ($data = mysqli_fetch_array($result)) {  //fetch the result from query int
   if ($data['ket'] == "-") {
     echo "
     <script> 
-            alert('HARAP SEGERA MENGHUBUNGI BAGIAN KURIKULUM UNTUK MELAKUKAN KONFIRMASI DAN PERBAIKAN NILAI!');
+            alert('NILAI ANDA BELUM MEMENUHI KRITERIA KELULUSAN!');
         </script>
     <tr class='success'>
       <td colspan='4' align='center'><font color='#000000' size='4' style='font-weight: bold;';><b>IDENTITAS PESERTA DIDIK</b></td>
@@ -139,8 +139,8 @@ while ($data = mysqli_fetch_array($result)) {  //fetch the result from query int
     <tr>
       <td colspan='4' align='center'><font color='#0066FF' size='6' style='text-transform: uppercase;'><b>" . $data['ket'] . "</b></td>
     </tr>
-    <tr class='success'>
-      <td colspan='4' align='center'><b>Apapun hasil yang didapat, semoga ini adalah yang terbaik, tetap semangat dan optimis.</b></td>
+    <tr class='danger'>
+      <td colspan='4' align='center'><font color='#000000' size='4' style='font-weight: bold;';><b>Selesaikan terlebih dahulu nilai rapot yang belum tuntas dengan menghubungi Wali Kelas dan berkoordinasi ke Kurikulum.</b></td>
     </tr>
     <tr class='danger'>
       <td colspan='4' align='center'>

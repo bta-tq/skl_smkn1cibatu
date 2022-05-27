@@ -9,8 +9,8 @@ $tahun = strip_tags($hsl['tahun']);
 $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
 //echo $timestamp;
 ?>
-<!DOCTYPE html PUBLIC "Sistem Kelulusan Online | DuoDragonDev">
-<html xmlns="Sistem Kelulusan Online | DuoDragonDev">
+<!DOCTYPE html PUBLIC "Sistem Kelulusan Online">
+<html xmlns="Sistem Kelulusan Online">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -75,6 +75,8 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                                             </div>
                                         </fieldset>
                                     </form>
+
+                                    <a href="carino" align="center"><br>Tidak mengetahui Nomor Ujian? Silahkan cek menggunakan NIS</a>
 
                                 </div>
                             </div>

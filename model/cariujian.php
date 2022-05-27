@@ -25,8 +25,8 @@ function tgl_indo($tanggal)
 }
 
 include "../config.php";
-$nisn = $_POST['nisn']; //get the nama value from form
-$q = "SELECT * from tbl_siswa where nisn = '$nisn' "; //query to get the search result
+$nis = $_POST['nis']; //get the nama value from form
+$q = "SELECT * from tbl_siswa where nis = '$nis' "; //query to get the search result
 $result = mysqli_query($koneksi, $q); //execute the query $q
 $num_rows = mysqli_num_rows($result);
 

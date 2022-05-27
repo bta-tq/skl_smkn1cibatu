@@ -16,7 +16,7 @@
         <div class="navbar-collapse collapse" id="navbar-main">
             <ul class="nav navbar-nav navbar-right">
             <li><a href="https://www.smkn1cibatu.sch.id/" target="_blank"><span class='glyphicon glyphicon-home' aria-hidden='true'></span>&nbsp;<b> KUNJUNGI WEB SEKOLAH</b></a></li>
-            <li><a href="carino"><span class='glyphicon glyphicon-search' aria-hidden='true'></span>&nbsp;<b> CARI NOMOR UJIAN</b></a></li>
+            <!-- <li><a href="carino"><span class='glyphicon glyphicon-search' aria-hidden='true'></span>&nbsp;<b> CARI NOMOR UJIAN</b></a></li> -->
             <li><a href="../caridata"><span class='glyphicon glyphicon-qrcode' aria-hidden='true'></span>&nbsp;<b> CEK KELULUSAN</b></a></li>
             <li><a href="login"><span class='glyphicon glyphicon-lock' aria-hidden='true'></span>&nbsp;<b> LOGIN</b></a></li>
             </ul>

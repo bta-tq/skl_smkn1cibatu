@@ -9,8 +9,8 @@ $tahun = strip_tags($hsl['tahun']);
 $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
 //echo $timestamp;
 ?>
-<!DOCTYPE html PUBLIC "Sistem Kelulusan Online | DuoDragonDev">
-<html xmlns="Sistem Kelulusan Online | DuoDragonDev">
+<!DOCTYPE html PUBLIC "Sistem Kelulusan Online">
+<html xmlns="Sistem Kelulusan Online">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -45,17 +45,30 @@ $tgl_pengumuman = strip_tags($hsl['tgl_pengumuman']);
                                 <hr>
                                 <script>
                                     function cekNo() {
-                                        var cek = document.forms['formcarino']['nisn'].value;
+                                        var cek = document.forms['formcarino']['nis'].value;
                                         if (cek == null || cek == "") {
-                                            alert("SILAHKAN MASUKKAN NOMOR NISN");
+                                            alert("SILAHKAN MASUKKAN NOMOR NIS");
                                             return false;
                                         }
                                     }
                                 </script>
+                                <!-- countdown -->
+                                <h4 align=" center">
+                                    <div id="clock" class="alert alert-dismissable alert-success" style="padding:10px">
+                                    </div>
+                                </h4>
+                                <div id="xpengumuman">
+                                    <div class="alert alert-dismissable alert-success">
+                                        <h4 align=" center">
+                                            <b>PENGUMUMAN STATUS KELULUSAN</br>TAHUN <?= $tahun ?> DIBUKA
+                                            </b>
+                                        </h4>
+                                    </div>
+                                    <hr>
                                 <form class="form-horizontal" form name="formcarino" method="post" action="cariujian" onSubmit="return cekNo()">
                                         <fieldset id="xpengumuman">
                                             <div class="form-group">
-                                                <input type="text" class="form-control" name="nisn" placeholder="KETIK/MASUKKAN NOMOR NISN" size="auto">
+                                                <input type="text" class="form-control" name="nis" placeholder="KETIK/MASUKKAN NOMOR NIS" size="auto">
                                             </div>
                                             <div class="form-group" style="margin-bottom: -10px;">
                                                 <p align="center"><b><input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="PERIKSA DATA" class="btn btn-danger"></b></p>
