@@ -84,7 +84,7 @@
                                     <td colspan='4' align='center'><font color='#000000' size='5' style='font-weight: bold;';><b><u>SURAT KETERANGAN LULUS</u></b></td>
                                 </tr>
                                 <tr class='nomorsurat'>
-                                    <td colspan='4' align='center'><font color='#000000' size='2' style='font-weight: bold;';>Nomor   : 423.7/234/SMKN1Cibatu.Cadisdik.Wil.IV</br></br></td>
+                                    <td colspan='4' align='center'><font color='#000000' size='2' style='font-weight: bold;';>Nomor   : 423.7/290/SMKN1Cibatu.Cadisdik.Wil.IV</br></br></td>
                                 </tr>
                                 <tr class='sambutan'>
                                     <td colspan='4' align='justify'>
@@ -237,20 +237,20 @@
                                                 <td colspan='3' align='center'><strong> " . $data['12'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 13) {
+                                if ($data1['no_urut'] == 16) {
                                     echo "  <tr><td>4.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['13'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 14) {
+                                if ($data1['no_urut'] == 17) {
                                     echo "  <tr><td>5.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['14'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['17'] . "</strong></td>
                                             </tr>";
                                     echo "  <tr class='warning'>
                                             <td colspan='2' align='center'><b>Rata-Rata</b></td>
-                                            <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            <td colspan='3' align='center'><strong> " . $data['18'] . "</strong></td>
                                         </tr>";
                                 }
                             }
@@ -277,20 +277,20 @@
                                                 <td colspan='3' align='center'><strong> " . $data['12'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 13) {
+                                if ($data1['no_urut'] == 16) {
                                     echo "  <tr><td>4.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['13'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 14) {
+                                if ($data1['no_urut'] == 17) {
                                     echo "  <tr><td>5.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['14'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['17'] . "</strong></td>
                                             </tr>";
                                     echo "  <tr class='warning'>
                                             <td colspan='2' align='center'><b>Rata-Rata</b></td>
-                                            <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            <td colspan='3' align='center'><strong> " . $data['18'] . "</strong></td>
                                         </tr>";
                                 }
                             }
@@ -318,20 +318,20 @@
                                                 <td colspan='3' align='center'><strong> " . $data['12'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 13) {
+                                if ($data1['no_urut'] == 16) {
                                     echo "  <tr><td>4.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['13'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 14) {
+                                if ($data1['no_urut'] == 17) {
                                     echo "  <tr><td>5.</td>
                                                 <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['14'] . "</strong></td>
+                                                <td colspan='3' align='center'><strong> " . $data['17'] . "</strong></td>
                                             </tr>";
                                     echo "  <tr class='warning'>
                                             <td colspan='2' align='center'><b>Rata-Rata</b></td>
-                                            <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            <td colspan='3' align='center'><strong> " . $data['18'] . "</strong></td>
                                         </tr>";
                                 }
                             }
@@ -347,38 +347,38 @@
                                                 <td colspan='3' align='center'><strong> " . $data['10'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 11) {
-                                    echo "  <tr><td>2.</td>
-                                                <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['11'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 12) {
-                                    echo "  <tr><td>3.</td>
-                                                <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['12'] . "</strong></td>
-                                            </tr>";
-                                }
                                 if ($data1['no_urut'] == 13) {
-                                    echo "  <tr><td>4.</td>
+                                    echo "  <tr><td>2.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['13'] . "</strong></td>
                                             </tr>";
                                 }
                                 if ($data1['no_urut'] == 14) {
-                                    echo "  <tr><td>4.</td>
+                                    echo "  <tr><td>3.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['14'] . "</strong></td>
                                             </tr>";
                                 }
                                 if ($data1['no_urut'] == 15) {
-                                    echo "  <tr><td>5.</td>
+                                    echo "  <tr><td>4.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['15'] . "</strong></td>
                                             </tr>";
+                                }
+                                if ($data1['no_urut'] == 16) {
+                                    echo "  <tr><td>5.</td>
+                                                <td>$data1[nm_mapel] </td>
+                                                <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            </tr>";
+                                }
+                                if ($data1['no_urut'] == 17) {
+                                    echo "  <tr><td>6.</td>
+                                                <td>$data1[nm_mapel] </td>
+                                                <td colspan='3' align='center'><strong> " . $data['17'] . "</strong></td>
+                                            </tr>";
                                     echo "  <tr class='warning'>
                                             <td colspan='2' align='center'><b>Rata-Rata</b></td>
-                                            <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            <td colspan='3' align='center'><strong> " . $data['18'] . "</strong></td>
                                         </tr>";
                                 }
                             }
@@ -394,38 +394,38 @@
                                                 <td colspan='3' align='center'><strong> " . $data['10'] . "</strong></td>
                                             </tr>";
                                 }
-                                if ($data1['no_urut'] == 11) {
-                                    echo "  <tr><td>2.</td>
-                                                <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['11'] . "</strong></td>
-                                            </tr>";
-                                }
-                                if ($data1['no_urut'] == 12) {
-                                    echo "  <tr><td>3.</td>
-                                                <td>$data1[nm_mapel] </td>
-                                                <td colspan='3' align='center'><strong> " . $data['12'] . "</strong></td>
-                                            </tr>";
-                                }
                                 if ($data1['no_urut'] == 13) {
-                                    echo "  <tr><td>4.</td>
+                                    echo "  <tr><td>2.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['13'] . "</strong></td>
                                             </tr>";
                                 }
                                 if ($data1['no_urut'] == 14) {
-                                    echo "  <tr><td>4.</td>
+                                    echo "  <tr><td>3.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['14'] . "</strong></td>
                                             </tr>";
                                 }
                                 if ($data1['no_urut'] == 15) {
-                                    echo "  <tr><td>5.</td>
+                                    echo "  <tr><td>4.</td>
                                                 <td>$data1[nm_mapel] </td>
                                                 <td colspan='3' align='center'><strong> " . $data['15'] . "</strong></td>
                                             </tr>";
+                                }
+                                if ($data1['no_urut'] == 16) {
+                                    echo "  <tr><td>5.</td>
+                                                <td>$data1[nm_mapel] </td>
+                                                <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            </tr>";
+                                }
+                                if ($data1['no_urut'] == 17) {
+                                    echo "  <tr><td>6.</td>
+                                                <td>$data1[nm_mapel] </td>
+                                                <td colspan='3' align='center'><strong> " . $data['17'] . "</strong></td>
+                                            </tr>";
                                     echo "  <tr class='warning'>
                                             <td colspan='2' align='center'><b>Rata-Rata</b></td>
-                                            <td colspan='3' align='center'><strong> " . $data['16'] . "</strong></td>
+                                            <td colspan='3' align='center'><strong> " . $data['18'] . "</strong></td>
                                         </tr>";
                                 }
                             }
