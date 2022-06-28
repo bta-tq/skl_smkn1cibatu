@@ -1,3 +1,5 @@
+
+text/x-generic carinisn.php ( PHP script, ASCII text, with CRLF line terminators )
 <?php
 function tgl_indo($tanggal)
 {
@@ -78,7 +80,7 @@ while ($data = mysqli_fetch_array($result)) {  //fetch the result from query int
     <td colspan='4' align='center'><font color='#0066FF' size='6' style='text-transform: uppercase;'><b>" . $data['ket'] . "</b></td>
   </tr>
   <tr class='success'>
-    <td colspan='4' align='center'><b>Apapun hasil yang didapat, semoga ini adalah yang terbaik, tetap semangat dan optimis.</b></td>
+    <td colspan='4' align='center'><b>Selamat anda telah lulus dari SMK NEGERI 1 Cibatu, Semoga Hasil yang didapat bermanfaat :)</b></td>
   </tr>
   <tr class='danger'>
     <td colspan='4' align='center'>
